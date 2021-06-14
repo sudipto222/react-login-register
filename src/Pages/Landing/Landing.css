@@ -1,0 +1,89 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 39px 34px;
+    padding-bottom: 20px;
+    max-width: 414px;
+}
+
+
+.landing__heading{
+    margin: 35px 10px;
+}
+.landing__logo{
+    margin: 49px 10px;
+}
+
+.desc{
+    width: 312px;
+    margin-bottom: 46px;
+    margin-left: 20px;
+    margin-right: 40.53px;
+    /* padding-left: 34px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.desc>span{
+    font-weight: 700;
+}
+
+.subDesc{
+    margin-left: 104.80px;
+    max-width: 457px;
+    overflow: hidden;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B7B7B7;
+}
+
+.subDesc>span{
+    font-weight: 700;
+}
+
+.landing__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.navSignup{
+    width: 287px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3B286D;
+    border-radius: 5px;
+    margin: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+.navLogin{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3B286D;
+}
+
+.pointer{
+    cursor: pointer;
+}

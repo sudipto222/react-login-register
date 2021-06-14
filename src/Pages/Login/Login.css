@@ -1,0 +1,141 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 49px 34px;
+    padding-bottom: 20px;
+    max-width: 414px;
+}
+
+.login__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__headingDesc{
+    margin-top: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #0A0A0A;
+}
+
+.login__form{
+    margin-top: 40px;
+}
+
+.email__label{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B7B7B7;
+    margin: 16px;
+    margin-bottom: 5px;
+}
+.email__icon__input{
+    display: flex;
+    align-items: center;
+}
+
+.email__icon__input> img{
+    margin: 16px;
+}
+
+.email__icon__input> input{
+    outline-width: 0px;
+    border: none;
+}
+
+.email__icon__input> input::-webkit-input-placeholder { /* Edge */
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B7B7B7;
+  }
+  
+  .email__icon__input> input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B7B7B7;
+  }
+  
+  .email__icon__input> input::placeholder {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B7B7B7;
+  }
+
+.bottomLine{
+    background-color: #16110D;
+    width: 302px;
+    height: 1px;
+    margin: 15px;
+    margin-top: 0px;
+}
+
+
+.password__container{
+    margin-top: 33px;
+}
+
+.forgotPassword{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0A0A0A;
+    display: flex;
+    justify-content: flex-end;
+    margin: 28px;
+}
+
+.forgotPassword>span{
+    font-weight: 700;
+}
+
+.formButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.loginButton{
+    width: 287px;
+    height: 53px;
+    background-color: #3B286D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noAcc__signup{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+    margin-top: 22.5px;
+}
